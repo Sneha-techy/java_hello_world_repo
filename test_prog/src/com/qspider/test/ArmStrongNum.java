@@ -4,10 +4,14 @@ import java.util.Scanner;
 
 public class ArmStrongNum {
 	public static void main(String[] args) {
+		System.out.println("hello java");
+		System.out.println("welcome java");
 		System.out.println("Enter a interger no:");
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		System.out.println(isArmStongNum(n));
+		System.out.println("hello java");
+		System.out.println("welcome java");
 	}
 
 	private static String isArmStongNum(int n) {
